@@ -1,0 +1,35 @@
+.footer {
+  background-color: $secondary-bg-color;
+  height: 252px;
+  display: flex;
+}
+.footer-inner {
+  display: flex;
+}
+.contacts {
+  margin-right: 70px;
+}
+
+.footer-adress {
+  color: $primary-white-color;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+
+  margin-top: 0;
+}
+.footer-contacts {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+
+  margin-top: 0;
+  display: flex;
+}
+.webfot-icon {
+  max-width: 131px;
+  max-height: 31px;
+}

@@ -1,0 +1,28 @@
+.container {
+  width: 480px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+// TABLET!
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+// DESKTOP!
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1230px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

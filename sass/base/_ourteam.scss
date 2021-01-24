@@ -1,0 +1,51 @@
+.section-ourteam {
+  max-width: 100%;
+  background-color: $icons-bg-color;
+  margin-bottom: 94px;
+}
+
+.container-team {
+  display: flex;
+}
+
+.section-teamposition {
+  background-color: $primary-white-color;
+  margin-right: 30px;
+  margin-bottom: 94px;
+  margin-left: 0;
+  height: 428px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  text-align: center;
+}
+.team-foto {
+  width: 270px;
+}
+
+.section-teamposition:nth-child(4) {
+  margin-right: 0;
+}
+
+.section-team {
+  color: $title-text-color;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 50px;
+  padding-top: 94px;
+}
+
+.section-names {
+  color: $title-text-color;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.section-profession {
+  color: $primary-bg-color;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}

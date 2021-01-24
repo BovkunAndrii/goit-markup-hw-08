@@ -1,0 +1,130 @@
+/* SECTION DETAILS */
+
+.section-details {
+  margin-bottom: 94px;
+}
+
+.section-position {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section-attention {
+  width: 270px;
+  margin-right: 30px;
+}
+.section-attention:nth-child(4n) {
+  margin-right: 0px;
+}
+
+.section-title {
+  color: $title-text-color;
+  font-size: 13px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.section-description {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+
+  margin-top: 0;
+}
+
+/* ICON-DETAILS */
+.section-clients {
+  margin-bottom: 94px;
+}
+.icon-antena {
+  width: 65px;
+  height: 70px;
+  margin: auto;
+}
+
+.icon-clock {
+  margin: auto;
+  width: 70px;
+  height: 70px;
+}
+
+.icon-diagram {
+  width: 70px;
+  height: 54px;
+  margin: auto;
+}
+.icon-astro {
+  width: 55px;
+  height: 60px;
+  margin: auto;
+}
+
+.icon-link {
+  display: block;
+  margin: auto;
+}
+.icon-details {
+  background-color: $icons-bg-color;
+  display: flex;
+  width: 270px;
+  height: 120px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.icon-list:nth-child(4n) {
+  margin-right: 0px;
+}
+
+.icon-list {
+  background-color: $icons-bg-color;
+  display: flex;
+  width: 270px;
+  height: 120px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 480px) {
+  .icon-list {
+    width: 450px;
+    height: 120px;
+  }
+  .section-attention {
+    width: 100%;
+  }
+  .section-title {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .icon-list {
+    width: 354px;
+    height: 120px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section-attention {
+    width: calc((100% - 4 * 15px) / 2);
+    margin: 15px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section-attention {
+    width: calc((100% - 8 * 15px) / 4);
+    margin: 15px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .icon-list {
+    width: 270px;
+    height: 120px;
+  }
+}
