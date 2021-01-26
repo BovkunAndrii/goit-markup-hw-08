@@ -10,3 +10,13 @@ a {
 textarea {
   resize: none;
 }
+
+button:focus {
+  outline: none;
+}
+
+img {
+  display: block;
+  height: auto;
+  width: 100%;
+}

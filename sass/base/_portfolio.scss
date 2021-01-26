@@ -24,8 +24,10 @@
   text-align: center;
   letter-spacing: 0.03em;
 }
-.filter-buttons .item-buttons + .item-buttons {
-  margin-left: 8px;
+
+.filter-buttons .item-buttons {
+  margin-left: 4px;
+  margin-right: 4px;
 }
 
 .filter-button:hover,
@@ -119,4 +121,17 @@
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
+}
+
+@media screen and (max-width: 767px) {
+  .filter-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-top: 60px;
+    margin-bottom: 46px;
+  }
+  .filter-buttons .item-buttons {
+    margin-bottom: 21px;
+  }
 }

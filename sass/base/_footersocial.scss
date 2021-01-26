@@ -103,3 +103,31 @@
   height: 24px;
   padding-left: 10px;
 }
+
+@media screen and (max-width: 767px) {
+  .social {
+    display: block;
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  .footer-list {
+    justify-content: center;
+  }
+  .footer-list .social-footer:not(:first-child) {
+    margin-left: 10px;
+  }
+  .subscribe-container {
+    margin: auto;
+  }
+  .subscribe-field {
+    display: block;
+  }
+  .subscribe-field input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .button-sub {
+    display: block;
+    margin: auto;
+  }
+}

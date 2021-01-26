@@ -1,7 +1,5 @@
 .footer {
   background-color: $secondary-bg-color;
-  height: 252px;
-  display: flex;
 }
 .footer-inner {
   display: flex;
@@ -32,4 +30,47 @@
 .webfot-icon {
   max-width: 131px;
   max-height: 31px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    display: block;
+    width: auto;
+    padding-top: 60px;
+    text-align: center;
+    padding-bottom: 60px;
+    margin: auto;
+  }
+  .footer-inner {
+    display: block;
+  }
+  .footer-contacts {
+    margin: auto;
+    display: block;
+  }
+  .contacts {
+    margin: auto;
+    margin-bottom: 60px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .footer {
+    display: block;
+    width: auto;
+    padding-top: 60px;
+    text-align: center;
+    padding-bottom: 60px;
+    margin: auto;
+  }
+  .footer-inner {
+    display: block;
+  }
+  .footer-contacts {
+    margin: auto;
+    display: block;
+  }
+  .contacts {
+    text-align: left;
+    margin: auto;
+  }
 }

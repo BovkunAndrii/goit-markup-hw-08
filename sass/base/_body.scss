@@ -1,6 +1,6 @@
 body {
-  background-color: $primary-white-color;
-  color: $primary-tex-color;
+  background-color: var(--primary-white-color);
+  color: var(--primary-tex-color);
   font-family: roboto, sans-serif;
   margin: 0;
 }

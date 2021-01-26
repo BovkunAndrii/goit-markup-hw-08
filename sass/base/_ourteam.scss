@@ -19,9 +19,6 @@
   border-radius: 0px 0px 4px 4px;
   text-align: center;
 }
-.team-foto {
-  width: 270px;
-}
 
 .section-teamposition:nth-child(4) {
   margin-right: 0;
@@ -48,4 +45,38 @@
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+}
+
+@media screen and (max-width: 767px) {
+  .container-team {
+    display: block;
+  }
+}
+@media screen and (max-width: 767px) {
+  .section-teamposition {
+    background-color: #fff;
+    margin-right: 0;
+    margin-bottom: 0px;
+    margin-left: 0;
+    height: auto;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container-team {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .section-teamposition {
+    margin: 15px;
+    width: calc((100% - 4 * 15px) / 2);
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section-teamposition {
+    margin: 15px;
+    width: calc((100% - 8 * 15px) / 4);
+  }
 }
