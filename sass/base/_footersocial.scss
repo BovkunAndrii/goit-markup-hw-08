@@ -89,7 +89,7 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  width: 200px;
+  max-width: 200px;
   height: 50px;
 
   margin-left: 12px;
@@ -129,5 +129,20 @@
   .button-sub {
     display: block;
     margin: auto;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .subscribe-container {
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .subscribe-field {
+    display: block;
+  }
+  .button-sub {
+    margin: auto;
+    margin-top: 20px;
   }
 }

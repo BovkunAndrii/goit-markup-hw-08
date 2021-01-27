@@ -135,3 +135,10 @@
     margin-bottom: 21px;
   }
 }
+
+@media screen and (min-width: 768px) {
+}
+.work-card {
+  width: calc((100% - 4 * 15px) / 2);
+  margin: 15px;
+}
